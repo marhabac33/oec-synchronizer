@@ -1,7 +1,7 @@
 # team05-Project Version 1.0 Open Exoplanet Catalogue (OEC) Synchronization Project (oec_sync)
 Project created for team05
 
-team05 members: ([Ian Ferguson](https://github.com/Mr-Ian-Ferguson), [Marhababanu Chariwala](https://github.com/marhabac33), [Ahsan Zia](https://github.com/ziaahsan), [Jubin Patel](https://github.com/PatelJubin), [Mu Xi (Lucy) Xing](https://github.com/LucyXMX)
+team05 members: [Ian Ferguson](https://github.com/Mr-Ian-Ferguson), [Marhababanu Chariwala](https://github.com/marhabac33), [Ahsan Zia](https://github.com/ziaahsan), [Jubin Patel](https://github.com/PatelJubin), [Mu Xi (Lucy) Xing](https://github.com/LucyXMX)
 
 This is repo for the CSCC01 project for team 05 (E.T).
 
