@@ -1,0 +1,128 @@
+
+An interview is <= 30 min long. Of course, this is not enough time for
+the team to present and explain their entire deliverable. So, we will
+need careful planning.
+
+Most teams have 5 members at the moment. Each team member needs to
+actively participate during the interview for the team to get full
+marks for the interview.
+
+Please, make notes -- I will want to keep them for my records. Do not
+assign the grade at this point. We will all meet after all interviews
+have been completed and decide on grades there. You can explain this
+to the teams in advance. We do so to make sure we are as consistent as
+possible in grading.
+
+Here is the format I'm hoping you will follow. As always with
+interviews, you will need to be flexible. 
+
+1) The process [2]: 1
+
+ Ask for a volunteer to give an overview of the process of completing
+ the deliverable. How did they organize themselves, is there a leader
+ of any kind, did they assign responsibilities, etc.  Look for
+ evidence of making informed decisions, not simply "X and Y had time
+ after MAT on Monday, so they came up with a product backlog."
+ [see Note below]
+
+-they came up with personas as a group on google docs
+-each team member came up with ytwo user stories
+-as a group they pruned them and tried to improve each user story
+-went over my feedback as a group before submitting
+-no group leader
+-someone volunteers to put it together and then sent it to the group
+for one final review of it
+-someone else volunteered to submit the assignment
+-volunteered based on free time (-1)
+
+
+2) Personas [2]: 2
+
+ Ask for a volunteer to explain the process of coming up with their
+ personas (not "in theory", but what they actually did).  Ask
+ follow-up questions until you're fully satisfied that he or she knows
+ what they're talking about. [see Note below]
+
+-for the personas they set up a google docs that everyone edited
+-everyone was able to add anything
+-found information on his blog / website
+-found other projects that he was working on
+-they converted information from his slides into his persona
+-the second last tutorial had a QA session that gave more specific requirements
+for the user
+-used for slides to determine his technical skills
+-people were asking Hanno questions about easy to use software
+and those qualities were added to his persona.
+
+
+3) Product Backlog [2]: 2
+
+ Ask for a volunteer to explain the process of coming up with a
+ product backlog (not "in theory", but what they actually did).  Ask
+ follow-up questions until you're fully satisfied that he or she knows
+ what they're talking about. [see Note below]
+
+-when making user stories they used Hanno's slides
+as well as the Qa session during the second tutorial
+-look at the exoplanet catalogue to see what other features he would like
+-tried to break these requirements into user stories
+-each person went off to create user stories
+-pruned user stories as a group
+-eliminated duplicates
+-fixed levels of specificity
+-critized user stories as a group
+(is something ambiguous, what would be reuiqred, how do we estimate time)
+-also looked at other projects that Hanno made
+-almost exclusively through the QA section and slides
+
+4) Details of User Stories [2]: 2
+
+ Ask for a volunteer. Select two user stories from two different
+ personas and ask this volunteer to explain these two user stories.
+ [see Note below]
+
+user 2.5:
+    -Hanno want to take advantage of Github's pull requests rather
+     than creating more overhead
+    -thought there should be a set time where to check other catalogues
+    -once a day will be modifiable
+    -this user story will just let Hanno know via a pull requests
+    -rather than trying to merge it
+    -the pull request will indeed merge the catalogues together, 
+    but this user story is just about letting Hanno know
+
+
+user story 2.8:
+    -when other catalogues have conflicting names (could be a typo)
+    -wants the program to be able to see if planets are the same even if their names
+    are different
+    -they want Hanno to manually verify that the programs guess is correct
+    -Hanno mentioned this during the QA session
+    -this could be done for any column
+
+
+5) Sprint Backlog [2]: 1
+
+  Ask the remaining team member to explain how the team will choose
+  the user stories for the Sprint Backlog. Have him/her point out user
+  stories from their Product Backlog that are likely to be chosen.
+  [see Note below]
+
+-going to ask Hanno what his priorities are
+and when they are assigned, they will also assign a cost
+-they will then add the user story to the sprint
+-will figure out how long each sprint will be
+-assign priorities during team meeting
+-did not mention project velocity (-1)
+
+[Note] If nobody volunteers or if nobody is able to give an adequate
+ answer, the team does not get this grade.  This volunteer is not
+ allowed to volunteer again (except for the last question, if the team
+ has 4 members). If a team member declares to be unable to answer
+ his/her question, then other members are allowed to help. If the
+ collective answer is correct, the team get half the marks for that
+ question.
+
+
+Needless to say, please, take this opportunity to offer as much help
+and feedback as possible.

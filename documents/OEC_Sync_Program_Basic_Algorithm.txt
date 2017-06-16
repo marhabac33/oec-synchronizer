@@ -1,0 +1,67 @@
+CSCC01 - OEC Sync Basic System Design
+
+1) OEC_Sync program started by automated daily caller.
+
+X 2) save current_directory = os.getcwd()
+
+X 3) change working dir to /tmp: os.chdir('/tmp')
+
+X 4) Download NASA & Exo.eu csv tables -> Timeout if download takes to long to prevent hanging.
+
+X 5) If at least 1 csv file is downloaded then continue -> Else exit
+
+6) SSH or Oauth into git
+
+7) Pull original OEC repo (upstream) into forked repo (origin)
+
+X 8) git clone forked oec repo
+
+X 9) change working dir to cloned git repo: os.chdir('repo name')
+
+X 10) Use system xml's in cloned repo to make dict('system_alias'/'exoplanet_alias': 'system xml file')
+
+X* 11) for each exoplanet in downloaded csv(s):
+
+X    12) Check if exoplanet is in existing xml -> Using dict(alias: system.xml) made in step 10.
+    
+X    12.1) If yes check if last update is for xml is older than last updated for csv data -> In xml data is newer move on to next planet.
+    
+X    13) Check if branch for system.xml has been created -> branches stored in list of branch names as created.
+    
+X    13.1) If branch created then checkout branch.
+    
+X    13.2) If branch NOT created then create and checkout branch -> add branch name to branch list.
+    
+    14) A) If exoplant is in existing xml: call function to updated existing xml file with new data.
+    
+X    14) B) If exoplant is NOT in existing xml: call function to create new xml file with data.
+    
+X    15) Add updated/new system.xml to git tracking -> git add system.xml
+    
+X    16) Generate commit message with as much info as possible -> Message to be deteremined.
+    
+X    17) Commit updated system.xml file with message.
+    
+X    18) Checkout master branch.
+    
+X 19) After all updates/new files are done, for each branch:
+
+X    20) Push branch to forked repo (origin)
+    
+X    21) Generate pull request message for branch/system.xml with as much info as possible.
+    
+X    22) Issue pull request for branch to original OEC repo (upstream)
+    
+X    23) Delete local branch.
+    
+X    24) Delete remote branch on forked repo 
+    -> Note: Pull request will remain after branch deleted (only true when using forked repo, false if branch is generated on original OEC)
+    
+X 25) Change directories back into /tmp folder os.chdir('/tmp')
+
+X 26) Deleted clone forked repo directory (origin).
+
+X 27) Deleted downloaded csv files.
+
+28) Exit program/perform any steps nessesary to allow automatic start of OEC Sync program in 24 hours.
+

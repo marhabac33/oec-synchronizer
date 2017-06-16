@@ -1,0 +1,172 @@
+# Template for mapping XML tags to csv column heads.
+
+
+# Template mapping for system level tags.
+SYSTEM_TEMPLATE = [
+    ((NAME_TAG, None),
+     []),
+
+    ((SYSTEM_RIGHT_ASC_TAG, None),
+     []),
+
+    ((SYSTEM_DECLINATION_TAG, None),
+     []),
+    
+    ((SYSTEM_DISTANCE_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)])
+    ]
+
+# Template mapping for binary level tags.
+BINARY_TEMPLATE = [
+    ((NAME_TAG, None),
+     []),
+
+    ((BINARY_SEPARATION_TAG, None),
+     [(UNIT_ATT, None)]),
+
+    ((BINARY_SEPARATION_TAG, None),
+     [(UNIT_ATT, None)]),
+
+    ((BINARY_POSITION_ANGLE_TAG, None),
+     [])
+    ]
+
+# Template mapping for star level tags.
+STAR_TEMPLATE = [
+    ((NAME_TAG, None),
+     []),
+
+    ((STAR_MASS_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None),
+      (TYPE_ATT, None)]),
+
+    ((STAR_RADIUS_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_TEMPERATURE_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_MAGB_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_MAGV_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_MAGR_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_MAGJ_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_MAGH_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_MAGI_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_MAGK_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_SPECTRAL_TYPE_TAG, None),
+     []),
+
+    ((STAR_AGE_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((STAR_METALLICITY_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)])
+    ]
+
+# Template mapping for planet level tags.
+EXOPLANET_TEMPLATE = [
+    ((NAME_TAG, None),
+     []),
+
+    ((PLANET_LIST_TAG, None),
+     []),
+
+    ((PLANET_MASS_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None),
+      (TYPE_ATT, None)]),
+
+    ((PLANET_PERIOD_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_SEMIA_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_ECCENTRICITY_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_INCLINATION_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_PERIASTRON_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_PERIASTRON_TIME_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_ASCENDINGNODE_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_RADIUS_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_TEMPERATURE_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_LONGITUDE_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_TRANSIT_TIME_TAG, None),
+     [(ERROR_PLUS_ATT, None),
+      (ERROR_MINUS_ATT, None)]),
+
+    ((PLANET_IS_TRANSITING_TAG, None),
+     []),
+
+    ((PLANET_DESCRIPTION_TAG, None),
+     []),
+
+    ((PLANET_IMAGE_TAG, None),
+     []),
+
+    ((PLANET_IMAGE_DES_TAG, None),
+     []),
+
+    ((PLANET_DISC_METHOD_TAG, None),
+     []),
+
+    ((PLANET_DISC_YEAR_TAG, None),
+     []),
+
+    ((PLANET_LAST_UPDATE_TAG, None),
+     [])
+    ]
+
+

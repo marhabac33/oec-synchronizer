@@ -1,0 +1,100 @@
+CSCC01 -- Deliverable 1 -- Marking Guidelines
+
+
+1) Introduce the team: 9 out of 10
+    Bad PDF Format.  Shouldn't be an image.  -1
+
+  team's name present: 1
+  
+  team logo present: 1
+
+  picture of the entire team present: 1
+
+  team's goals presented: 3
+    spelling and grammar: 1
+    clarity: 1
+    realistic yet ambitious goals: 1
+
+  team's strengths explained: 4
+    spelling and grammar: 1
+    clarity: 1
+    makes good use of each member's background: 2
+
+10
+name:1
+logo:1
+pics:1
+goal:3
+    1
+    1
+    1
+strs:4
+    1
+    1
+    2
+    
+  
+2) Introduce the team members: 30 out of 30
+
+   I am assuming 5 members. If your team has four members,
+   scale accordingly.
+
+   for each member:
+      approx 150 words: 1
+      spelling and grammar: 1
+      clarity: 1
+      professionalism: 2
+
+   The members' introductions are consistent w.r.t. person (in
+   first/third person), style, qualities/interests described, etc., so
+   that the overall introduction reads well:      5
+
+30
+lucy:
+    1
+    1
+    1
+    2
+
+ian:
+    1
+    1
+    1
+    2
+
+jubin:
+    1
+    1
+    1
+    2
+
+marhababanu:
+    1
+    1
+    1
+    2
+
+ahsan:
+    1
+    1
+    1
+    2
+
+5
+
+
+
+3) Team agreement: 9 out of 10
+    
+    methods of communication, including wait time for replies, clearly stated:  2
+    meeting times arranged:  2
+    contingency planning (member is sick, missing meetings, not performing up to standards, etc.):  2
+    use of version control is discussed:  2
+    some planning of individual roles:  2
+
+9
+comm:2
+meet:2
+contingency:1 what if sick or not performing well
+scm:2 did not mention which version control though
+roles:2

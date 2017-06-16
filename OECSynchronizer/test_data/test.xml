@@ -1,0 +1,61 @@
+<system>
+	<name>test1</name>
+	<name>test2</name>
+	<rightascension></rightascension>
+	<declination></declination>
+	<distance></distance>
+	<star>
+		<name>test1.1</name>
+		<name>test1.2</name>
+		<mass></mass>
+		<radius></radius>
+		<temperature></temperature>
+		<magV></magV>
+		<metallicity></metallicity>
+		<spectraltype></spectraltype>
+		<planet>
+			<name>test1.1.a</name>
+		    <name>test1.2.a</name>
+			<list>Confirmed planets</list>
+			<mass></mass>
+			<radius></radius>
+			<temperature></temperature>
+			<period></period>
+			<semimajoraxis></semimajoraxis>
+			<eccentricity></eccentricity>
+			<inclination></inclination>
+			<periastron></periastron>
+			<longitude></longitude>
+			<description>This file is only a sample xml for testing.</description>
+			<discoverymethod>RV</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/09/17</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<image></image>
+			<imagedescription></imagedescription>
+			<spinorbitalignment></spinorbitalignment>
+		</planet>
+		<planet>
+			<name>test1.1.b</name>
+		    <name>test1.2.b</name>
+			<list>Confirmed planets</list>
+			<mass></mass>
+			<radius></radius>
+			<temperature></temperature>
+			<period></period>
+			<semimajoraxis></semimajoraxis>
+			<eccentricity></eccentricity>
+			<inclination></inclination>
+			<periastron></periastron>
+			<longitude></longitude>
+			<description>This file is only a sample xml for testing.</description>
+			<discoverymethod>RV</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/09/17</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<image></image>
+			<imagedescription></imagedescription>
+			<spinorbitalignment></spinorbitalignment>
+		</planet>
+	</star>
+</system>
